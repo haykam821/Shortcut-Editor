@@ -1,0 +1,23 @@
+{
+	"name": "shortcut-editor",
+	"description": "An editor for shortcuts.",
+	"version": "1.0.0",
+	"main": "./src/index.jsx",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/haykam821/Shortcut-Editor.git"
+	},
+	"keywords": [
+		"shortcuts",
+		"cutana"
+	],
+	"author": "haykam821",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/haykam821/Shortcut-Editor/issues"
+	},
+	"homepage": "https://github.com/haykam821/Shortcut-Editor#readme"
+}
