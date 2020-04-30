@@ -5,7 +5,20 @@ module.exports = {
 		rules: [{
 			test: /\.jsx$/,
 			use: "jsx-loader",
+		}, {
+			test: /\.scss$/,
+			use: [
+				"style-loader",
+				"css-loader",
+				"sass-loader",
+			],
+		}, {
+			test: /\.png$/,
+			use: "file-loader",
 		}],
+	},
+	node: {
+		fs: "empty",
 	},
 	output: {
 		filename: "index.js",
